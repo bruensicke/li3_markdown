@@ -1,0 +1,10 @@
+Icon?
+.DS_Store
+.svn
+*~
+*.swp
+.buildpath
+.project
+.settings/
+nbproject
+build
