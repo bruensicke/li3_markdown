@@ -2,7 +2,7 @@
 Lithium library for parsing markdown, uses [PHP Markdown](http://michelf.com/projects/php-markdown/).
 
 ## Usage:
-To enable the library add the following line at the en of `app/config/bootstrap/libraries.php`:
+To enable the library add the following line at the end of `app/config/bootstrap/libraries.php`:
 
     Libraries::add('li3_markdown');
 
