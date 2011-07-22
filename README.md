@@ -1,5 +1,7 @@
 # li3_markdown
-Lithium library for parsing markdown, uses [PHP Markdown](http://michelf.com/projects/php-markdown/).
+Lithium library for parsing markdown, uses [PHP Markdown Extra](http://michelf.com/projects/php-markdown/).
+
+PHP Markdown Extra version: `1.2.4`
 
 ## Usage:
 To enable the library add the following line at the end of `app/config/bootstrap/libraries.php`:

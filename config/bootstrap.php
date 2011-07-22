@@ -7,9 +7,8 @@
  */
 
 /**
- * Include the main `Markdown` class file.
+ * Include PHP Markdown class file
  */
-lithium\core\Libraries::add('PHPMarkdown', array(
-    'path' => dirname(__DIR__) . '/libraries',
-    'bootstrap' => 'PHPMarkdown/markdown.php',
-));
+if (!class_exists('Markdown_Parser', false)) {
+    require_once dirname(__DIR__) . '/vendors/PHPMarkdown/markdown.php';
+}
