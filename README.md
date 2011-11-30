@@ -12,9 +12,13 @@ To render the result within a template file simply call the `markdown` helper an
 
 ## Installation
 
-To enable the library add the following line at the end of `app/config/bootstrap/libraries.php`:
+Add a submodule to your li3 libraries:
 
-    Libraries::add('li3_markdown');
+	git submodule add git@github.com:bruensicke/li3_markdown.git libraries/li3_markdown
+
+and activate it in you app (config/bootstrap/libraries.php), of course:
+
+	Libraries::add('li3_markdown');
 
 ## Credits
 
