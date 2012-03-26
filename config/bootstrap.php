@@ -12,3 +12,5 @@
 if (!class_exists('Markdown_Parser', false)) {
     require_once dirname(__DIR__) . '/vendors/PHPMarkdown/markdown.php';
 }
+
+?>

@@ -24,3 +24,5 @@ class Markdown extends \lithium\template\Helper {
         return Markdown($string);
     }
 }
+
+?>
