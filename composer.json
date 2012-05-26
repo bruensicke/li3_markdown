@@ -1,0 +1,21 @@
+{
+	"name": "joseym/li3_markdown",
+	"type": "li3-libraries",
+	"description": "Lithium PHP Markdown parser",
+	"keywords": ["markdown", "lithium", "li3"],
+	"homepage": "https://github.com/joseym/li3_markdown/blob/master/README.md",
+	"license": "GNU General Public License",
+	"authors": [
+		{
+			"name": "Josey Morton",
+			"email": "me@joseymorton.com",
+			"homepage": "https://github.com/joseym"
+		}
+	],
+
+	"require": {
+		"php": ">=5.3",
+		"joseym/li3_installer": "master"
+	}
+
+}
