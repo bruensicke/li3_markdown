@@ -5,7 +5,24 @@ PHP Markdown Extra version: `1.2.4`
 
 ## Installation
 
-### Grab the Plugin
+### Use Composer
+__Best Option__
+
+Modify your projects `composer.json` file
+
+~~~ json
+{
+    "require": {
+    	...
+        "joseym/li3_markdown": "master"
+        ...
+    }
+}
+~~~
+
+Run `php composer.phar install` (or `php composer.phar update`) and, aside from adding it to your Libraries, you should be good to go.
+
+### Submodule or Clone
 
 > Select one of the following
 
