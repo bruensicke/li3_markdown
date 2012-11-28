@@ -62,7 +62,7 @@ the renderer will see that it's a markdown template and render it, otherwise it 
 > This is a helper method that allows you to selectively render text thru the markdown parser.
 To render the result within a template file simply call the `markdown` helper and run `display`:
 
-    <?php echo $this->markdown->display($markup) ?>
+    <?php echo $this->markdown->render($markup) ?>
 
 ## Installation
 

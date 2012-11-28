@@ -20,7 +20,7 @@ class Markdown extends \lithium\template\Helper {
      * @param string $string Content that we want to be parsed from `markdown` into `HTML`.
      * @return string `HTML` ready string.
      */
-    public function display($string) {
+    public function render($string) {
         return Markdown($string);
     }
 }
