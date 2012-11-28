@@ -1,0 +1,23 @@
+{
+	"name": "bruensicke/li3_markdown",
+	"type": "lithium-library",
+	"description": "Lithium PHP Markdown parser",
+	"keywords": ["markdown", "lithium", "li3"],
+	"homepage": "https://github.com/bruensicke/li3_markdown/blob/master/README.md",
+	"license": "GNU General Public License",
+	"authors": [
+		{
+			"name": "Josey Morton",
+			"email": "me@joseymorton.com",
+			"homepage": "https://github.com/joseym"
+		},
+		{
+			"name": "Dirk Brünsicke",
+			"email": "d1rk@gmx.de",
+			"homepage": "https://github.com/bruensicke"
+		}
+	],
+	"require": {
+		"php": ">=5.3",
+	}
+}
