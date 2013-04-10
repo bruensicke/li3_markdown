@@ -20,10 +20,10 @@
 		"composer/installers": "*"
 	},
 	"suggest": {
-		"UnionOfRAD/lithium": "Lithium is required for this plugin.",
+		"UnionOfRAD/lithium": "Lithium is required for this plugin."
 	},
 	"support": {
 		"issues": "https://github.com/bruensicke/li3_markdown/issues"
-	}
+	},
 	"minimum-stability": "dev"
 }
