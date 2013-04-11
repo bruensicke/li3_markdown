@@ -15,15 +15,18 @@
 	"replace": {
 		"joseym/li3_markdown": "*"
 	},
-	"require": {
-		"php": ">=5.3",
-		"composer/installers": "*"
-	},
 	"suggest": {
 		"UnionOfRAD/lithium": "Lithium is required for this plugin."
 	},
 	"support": {
 		"issues": "https://github.com/bruensicke/li3_markdown/issues"
+	},
+	"require": {
+		"php": ">=5.3",
+		"composer/installers": "*"
+	},
+	"require-dev": {
+		"evert/phpdoc-md" : "0.0.*"
 	},
 	"minimum-stability": "dev"
 }
