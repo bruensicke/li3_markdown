@@ -12,8 +12,8 @@ use \lithium\net\http\Media;
 /**
  * Include PHP Markdown class file
  */
-if (!class_exists('Markdown_Parser', false)) {
-    require_once dirname(__DIR__) . '/vendors/PHPMarkdown/markdown.php';
+if (!class_exists('MarkdownExtended', false)) {
+    require_once dirname(__DIR__) . '/vendors/PHPMarkdown/markdown_extended.php';
 }
 
 Media::type( 'md', 'text/html', array(

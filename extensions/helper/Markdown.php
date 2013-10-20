@@ -21,7 +21,7 @@ class Markdown extends \lithium\template\Helper {
      * @return string `HTML` ready string.
      */
     public function render($string) {
-        return Markdown($string);
+        return MarkdownExtended($string);
     }
 }
 

@@ -33,7 +33,7 @@ class Markdown extends \lithium\template\view\adapter\File {
 
 		$_type = $this->getType($template__);
 
-		return ($_type == 'md') ? Markdown($content) : $content;
+		return ($_type == 'md') ? MarkdownExtended($content) : $content;
 
 	}
 
@@ -93,7 +93,7 @@ class Markdown extends \lithium\template\view\adapter\File {
 				}
 				return $path;
 			}
-		
+
 		}
 
 		// didn't find any templates, throw exception

@@ -1,5 +1,5 @@
 # Markdown parser for [Lithium PHP](http://lithify.me)
-Lithium library for parsing markdown, uses [PHP Markdown Extra](http://michelf.com/projects/php-markdown/extra/).
+Lithium library for parsing markdown, uses [PHP Markdown Extra Extended](https://github.com/egil/php-markdown-extra-extended).
 
 PHP Markdown Extra version: `1.2.4`
 
